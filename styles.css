@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, pink, purple, blue, green);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.color {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pink { background-color: pink;}
+.purple { background-color: purple;}
+.blue { background-color: blue;}
+.green {background-color: green;}
+.white {background-color: white;}
+.rainbow {background: linear-gradient(to right, pink, purple, blue, green);}
+
+.color:hover {
+    transform: scale(1.3);
+}
